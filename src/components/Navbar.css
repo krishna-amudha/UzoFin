@@ -1,0 +1,278 @@
+
+.bg-color {
+  position: sticky;
+background: #03030342;
+}
+
+.text-power
+{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 56px;
+line-height: 85px;
+letter-spacing: 1px;
+text-align: center;
+
+}
+.text-color-bank {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 56px;
+  letter-spacing: 1px;
+  text-align: center;
+
+  background: linear-gradient(90deg, #00FFF3 0%, #AB5EFF 100%);
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+}
+.hero-decription{
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 19px;
+line-height: 35px;
+letter-spacing: 2%;
+text-align: center;
+color: #C4C4C4;
+}
+
+.start-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px 40px 10px 23px;
+  border-radius: 50px;
+  background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid rgba(140, 1, 250, 0.5);
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.3s ease-in-out;
+  letter-spacing: .5px;
+}
+
+/* First arrow (slides out) */
+.start-button::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat center center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Second arrow (slides in) */
+.start-button::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat center center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+/* Hover background */
+.start-button:hover {
+  background: linear-gradient(92.18deg, #8C01FA -0.81%, #000000 187.84%);
+}
+
+/* Animate arrows on hover */
+.start-button:hover::before {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.start-button:hover::after {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+.read-button{
+   position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 10px 40px 10px 23px;
+  border-radius: 50px;
+  background: linear-gradient(98.88deg, #BA9CFF -2.99%, #300056 102.28%);
+   background: transparent;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid rgba(140, 1, 250, 0.5);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+
+/* First arrow (slides out) */
+.read-button::before {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat center center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Second arrow (slides in) */
+.read-button::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat center center;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateX(-10px);
+  opacity: 0;
+}
+
+/* Hover background */
+.read-button:hover {
+  /* background: linear-gradient(92.18deg, #8C01FA -0.81%, #000000 187.84%); */
+   background: transparent;
+}
+
+/* Animate arrows on hover */
+.read-button:hover::before {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.read-button:hover::after {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+.logo-desicription{
+  color: #37CCF7;
+font-size: 17px;
+letter-spacing: 1px;
+}
+
+.text-pays{
+  font-family: Poppins;
+font-weight: 400;
+font-size: 32px;
+line-height: 46px;
+letter-spacing: 1px;
+
+}
+
+.text-processed{
+  font-family: Poppins;
+font-weight: 300;
+font-style: Regular;
+font-size: 14px;
+color: #C4C4C4;
+line-height: 27px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+}
+
+.monthly_number{
+text-transform: uppercase;
+font-family: Poppins;
+font-weight: 400;
+font-size: 85px;
+letter-spacing:1px;
+background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+  -webkit-background-clip: text;  /* Chrome/Safari */
+  -webkit-text-fill-color: transparent;  /* Makes text show gradient */
+  background-clip: text;  /* Firefox support */
+  color: transparent;  /* fallback */
+  display: inline;
+}
+
+.uptime_number{
+text-transform: uppercase;
+font-family: Poppins;
+font-weight: 400;
+font-size: 85px;
+letter-spacing:1.5px;
+background: linear-gradient(260.33deg, #0047FF -13.37%, #00BCD4 109.53%);
+  -webkit-background-clip: text;  /* Chrome/Safari */
+  -webkit-text-fill-color: transparent;  /* Makes text show gradient */
+  background-clip: text;  /* Firefox support */
+  color: transparent;  /* fallback */
+  display: inline;
+}
+.faster_number{
+
+font-family: Poppins;
+font-weight: 400;
+font-size: 85px;
+letter-spacing:1.5px;
+background: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+  -webkit-background-clip: text;  /* Chrome/Safari */
+  -webkit-text-fill-color: transparent;  /* Makes text show gradient */
+  background-clip: text;  /* Firefox support */
+  color: transparent;  /* fallback */
+  display: inline;
+}
+.faster{
+  font-family: Poppins;
+font-weight: 400;
+
+font-size: 55px;
+line-height: 132px;
+letter-spacing:1px;
+
+}
+
+
+.text-step{
+  font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 0%;
+color: #C4C4C4;
+
+}
+
+.roundcolor {
+  display: inline-block;       /* makes span respect width/height */
+  width: 4px;                 /* dot size */
+  height: 4px;                /* dot size */
+  background-color: #1FCFF1;   /* choose any color */
+  border-radius: 50%;           /* makes it a circle */
+  margin-right: 2px;            /* spacing between dot and text */
+  vertical-align: super;   
+  opacity: 1;  
+}
+.text-title-header{
+  font-family: Poppins;
+font-weight: 400;
+    line-height: 25px;
+font-size: 23px;
+}
+.text-number-header{
+  font-size: 23px;
+}
+
+
+
