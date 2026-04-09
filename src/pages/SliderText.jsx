@@ -26,7 +26,7 @@ export default function SliderText() {
     <div className="flex animate-slide gap-6 mb-30 relative z-10">
       
       {/* Card 1 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "0s" }}>
           <h2 className="card-title mb-4">Scalability & Integration</h2>
           <p className="card-description mb-4">
@@ -41,7 +41,7 @@ export default function SliderText() {
       </div>
 
       {/* Card 2 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "0.5s" }}>
           <h2 className="card-title mb-4">Performance & Speed</h2>
           <p className="card-description mb-4">
@@ -56,7 +56,7 @@ export default function SliderText() {
       </div>
 
       {/* Card 3 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "1s" }}>
           <h2 className="card-title mb-4">Security & Privacy</h2>
           <p className="card-description mb-4">
@@ -71,7 +71,7 @@ export default function SliderText() {
       </div>
 
       {/* Card 4 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "1.5s" }}>
           <h2 className="card-title mb-4">User Experience</h2>
           <p className="card-description mb-4">
@@ -86,7 +86,7 @@ export default function SliderText() {
       </div>
 
       {/* Card 5 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "2s" }}>
           <h2 className="card-title mb-4">Analytics & Insights</h2>
           <p className="card-description mb-4">
@@ -101,7 +101,7 @@ export default function SliderText() {
       </div>
 
       {/* Card 6 */}
-      <div className="flex-shrink-0 w-1/4">
+      <div className="flex-shrink-0 w-[85%] sm:w-[65%] md:w-[45%] lg:w-1/4">
         <div className="card max-w-sm mx-auto card-design" style={{ animationDelay: "2.5s" }}>
           <h2 className="card-title mb-4">Scalability & Integration</h2>
           <p className="card-description mb-4">
