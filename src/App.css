@@ -268,3 +268,12 @@ background:linear-gradient(78.75deg, #714DFF 0%, #9C83FF 31.28%, #E151FF 77.97%,
 .zoom-out {
   animation: zoomOut 1s ease-out forwards;
 }
+.mobile-hide {
+  display: none!important;
+}
+
+@media (min-width: 768px) {
+  .mobile-hide {
+    display: block !important;
+  }
+}
